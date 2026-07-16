@@ -1,0 +1,157 @@
+{
+    "version": 1,
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "ae44c1bb-fabb-4476-9d5b-f7f67ea31044",
+            "actions": [
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "78b7b696-c892-4b39-98f1-3af43b2707f6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "f1d55009-9ce5-4cc9-9f6f-a0014e97d656",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0ed7521-28b5-42c1-9839-50353f377788",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6656b44e-665c-47b4-ac6d-2cd3967dd9f2",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BasketItem",
+            "id": "d5b27fa8-6a0e-4765-ab81-3982885f77c1",
+            "actions": [
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "611cc8e6-40e8-47b4-8908-3c926502b1d1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "86cc894c-3357-4abc-a0f5-0a023b92faf7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "33cf1b9c-4ffb-41b9-8571-2037b77236b0",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad3607e5-7aee-4320-ac94-6e03934df196",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SyhtnesisItem",
+            "id": "46900803-890a-4e15-a42b-4062e8cfc351",
+            "actions": [
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "a9ad18b3-7997-4b46-87fe-321890ef241d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "23a8d367-faca-4928-9ca7-fe067825b4b5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b4e6621c-aec5-4ef3-a896-35d53396e793",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c23a6b85-5be1-4f0b-ae82-2312f8291e6f",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "aaa",
+            "bindingGroup": "aaa",
+            "devices": []
+        }
+    ]
+}
